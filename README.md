@@ -1,3 +1,4 @@
+
 # Shopping-Cart
 A fully functional shopping cart using Object Oriented concepts in JavaScript
 
@@ -8,4 +9,4 @@ A fully functional shopping cart using Object Oriented concepts in JavaScript
 
 
 
-
+![cart](https://user-images.githubusercontent.com/68266703/121535618-c1d7b880-ca1b-11eb-9699-2047c3c78bc1.png)
