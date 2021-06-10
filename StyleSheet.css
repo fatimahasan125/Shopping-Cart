@@ -1,0 +1,147 @@
+﻿
+
+img {
+    
+    height: 50px;
+    width: 50px;
+}
+span#closeHeader {
+    float: right;
+    color: darkgrey; 
+}
+i.fa {
+    font-size: 30px;
+}
+div#header {
+    padding: 20px 0px 20px 0px;
+    font-size: 25px;
+    margin-bottom: 2.5%;
+}
+div.products, div.total_price {
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+div#ShoppingCart, div#Div1   {
+    margin-right: 33%;
+    float:right;
+    margin-top: 20px;
+    width: 500px;
+    border: none;
+}
+
+
+div#buttons {
+    border: none;
+}
+div {
+    border: solid;
+    border-width: thin;
+    border-color: lightgrey;
+}
+    div.total_price {
+        font-weight: bold;
+        padding: 10px 0px 10px 0px;
+    }
+
+span{
+    margin: 0px 10px 0px 10px;
+}
+    span#t_price {
+        float: right;
+        margin-right: 10%;
+    }
+    span#tPrice {
+        margin-left: 61%;
+    }
+    button#close {
+        background-color: indianred;
+        color: white;
+        margin-right: 5%;
+        margin-top: 2%;
+        float: right;
+        border-radius: 7px;
+    }
+div#buttons {
+    height: 50px;
+}
+
+button#close_button, button#checkout_button {
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+span.item_price {
+    margin-left: 20%;
+}
+button#close_button {
+    margin-left: 28%;
+    background-color: white;
+}
+button#checkout_button {
+    color: white;
+    background-color: #357ec7;
+}
+input {
+    width: 10%;
+    left: 80%;
+}
+
+@media screen and (max-width: 750px) {
+    div#ShoppingCart, div#Div1 {
+        float: left;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+  div#ShoppingCart, div#Div1{
+    width: 100%;
+    border: none;
+}
+    button#close {
+        float: none;
+    }
+  span.item_price {
+    margin-left: 10%;
+}
+    span#t_price {
+        margin-right: 20%;
+    }
+    span#tPrice {
+        margin-left: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    span.item_price {
+        margin-left: 1%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    button#checkout_button {
+        margin-left: 28%;
+    }
+    i.fa, span#myCart {
+        font-size: 30px;
+        margin-left: 20%;
+        font-weight: 300;
+    }
+    span, input.qty, button#close, img, span.item_price, span#tPrice{
+        display: block;
+        font-size: 20px;
+        margin-left: 20%;
+       
+    }
+    input.qty {
+         width: 20%;
+    }
+
+    img {
+        height: 80px;
+        width: 80px;
+    }
+}
